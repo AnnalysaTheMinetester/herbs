@@ -3,7 +3,7 @@ local hb = herbs
 
 hb.modname = minetest.get_current_modname()
 hb.version = 1
-hb.revision = 0
+hb.revision = 2
 
 local modname = hb.modname
 
@@ -72,31 +72,31 @@ end
 hb.flowerdatas = {
 	{
 		"campanula_blue",
-		S("Blue Campanula"),
+		S("Campanula Blue"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_blue = 1, flammable = 1}
 	},
 	{
-		"clover_red",
-		S("Red Clover"),
+		"trifolium_red",
+		S("Trifolium Red"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_violet = 1, flammable = 1}
 	},
 	{
-		"clover_white",
-		S("White Clover"),
+		"trifolium_white",
+		S("Trifolium White"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 3 / 16, 4 / 16},
 		{color_green = 1, flammable = 1}
 	},
 	{
-		"cornflower",
-		S("Cornflower"),
+		"centaurea",
+		S("Centaurea"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_blue = 1, flammable = 1}
 	},
     {
-		"houndstooth",
-		S("Yellow Houndstooth"),
+		"anagallis_yellow",
+		S("Anagallis Yellow"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_yellow = 1, flammable = 1}
 	},
@@ -107,99 +107,99 @@ hb.flowerdatas = {
 		{color_blue = 1, flammable = 1}
 	},
 	{
-		"margerit",
-		S("Margerit"),
+		"leucanthemum_white",
+		S("Leucanthemum White"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_white = 1, flammable = 1}
 	},
 	{
-		"noble_white",
-		S("Noble White"),
+		"leontopodium_white",
+		S("Leontopodium White"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 2 / 16, 4 / 16},
 		{color_grey = 1, flammable = 1}
 	},
 	{
-		"poppy_red",
-		S("Red Poppy"),
+		"papaver_red",
+		S("Papaver Red"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_red = 1, flammable = 1}
 	},
 	{
-		"ribwort",
-		S("Ribwort"),
+		"plantago",
+		S("Plantago"),
 		{-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16},
 		{color_brown = 1, flammable = 1}
 	},
 	{
-		"snapdragon",
-		S("Snapdragon"),
+		"antirrhinum",
+		S("Antirrhinum"),
 		{-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16},
 		{color_pink = 1, flammable = 1}
 	},
 	{
-		"sundew",
-		S("Round Sundew"),
+		"drosera",
+		S("Dosera round"),
 		{-4 / 16, -0.5, -4 / 16, 4 / 16, 5 / 16, 4 / 16},
 		{color_red = 1, flammable = 1}
 	},
-	{	"thimble_blue",
-		S("Blue Thimble"),
+	{	"digitalis_blue",
+		S("Digitalis Blue"),
 		{-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16},
 		{color_blue = 1, flammable = 1}
 	},
 	{
-		"thimble_yellow",
-		S("Yellow Thimble"),
+		"digitalis_yellow",
+		S("Digitalis Yellow"),
 		{-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16},
 		{color_yellow = 1, flammable = 1}
 	},
 	{
-		"yarrow_white",
-		S("White Yarrow"),
+		"achillea_white",
+		S("Achillea White"),
 		{-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16},
 		{color_white = 1, flammable = 1}
 	}
 }
 
 hb.mushroomdatas = {
-                        {   "mushroom_bulbous_green",
-                            S("Green Bulbous"),
-                            "mushroom_bulbous_green.png",
+                        {   "mushroom_amanita_green",
+                            S("Amanita Green"),
+                            "mushroom_amanita_green.png",
                             1,
                             -10
                         },
                         {
-                            "mushroom_chanterelle",
-                            S("Chanterelle"),
-                            "mushroom_chanterelle.png",
+                            "mushroom_cantharellus",
+                            S("Cantharellus"),
+                            "mushroom_cantharellus.png",
                             3,
                             0
                         },
                         {
-                            "mushroom_lorikeet",
-                            S("Lorikeet"),
-                            "mushroom_lorikeet.png",
+                            "mushroom_gyromitra",
+                            S("Gyromitra"),
+                            "mushroom_gyromitra.png",
                             1,
                             -5
                         },
                         {
-                            "mushroom_parasol",
-                            S("Parasol"),
-                            "mushroom_parasol.png",
+                            "mushroom_macrolepiota",
+                            S("Macrolepiota"),
+                            "mushroom_macrolepiota.png",
                             5,
                             0
                         },
                         {
-                            "mushroom_poisonous_sublime",
-                            S("Poisonous Sublime"),
-                            "mushroom_poisonous_sublime.png",
+                            "mushroom_galerina",
+                            S("Galerina"),
+                            "mushroom_galerina.png",
                             1,
                             -3
                         },
                         {
-                            "mushroom_stone",
-                            S("Stone Mushroom"),
-                            "mushroom_stone.png",
+                            "mushroom_boletus",
+                            S("Boletus"),
+                            "mushroom_boletus.png",
                             4,
                             0
                         }
@@ -216,6 +216,29 @@ end
 for _,item in pairs(hb.flowerdatas) do
 	hb.add_simple_flower(unpack(item))
 end
+
+-- Compatibility for older versions
+minetest.register_alias("herbs:clover_red","herbs:trifolium_red")
+minetest.register_alias("herbs:clover_white","herbs:trifolium_white")
+minetest.register_alias("herbs:cornflower","herbs:centaurea")
+minetest.register_alias("herbs:houndstooth","herbs:anagallis_yellow")
+minetest.register_alias("herbs:margerit","herbs:leucanthemum_white")
+minetest.register_alias("herbs:poppy_red","herbs:papaver_red")
+minetest.register_alias("herbs:ribwort","herbs:plantago")
+minetest.register_alias("herbs:snapdragon","herbs:antirrhinum")
+minetest.register_alias("herbs:sundew","herbs:drosera")
+minetest.register_alias("herbs:thimble_blue","herbs:digitalis_blue")
+minetest.register_alias("herbs:thimble_yellow","herbs:digitalis_yellow")
+minetest.register_alias("herbs:yarrow_white","herbs:achillea_white")
+minetest.register_alias("herbs:nobel_white","herbs:leontopodium_white")
+
+minetest.register_alias("herbs:mushroom_bulbous_green","herbs:mushroom_amanita_green")
+minetest.register_alias("herbs:mushroom_chanterelle","herbs:mushroom_cantharellus")
+minetest.register_alias("herbs:mushroom_lorikeet","herbs:mushroom_gyromitra")
+minetest.register_alias("herbs:mushroom_parasol","herbs:mushroom_macrolepiota")
+minetest.register_alias("herbs:mushroom_poisonous_sublime","herbs:mushroom_galerina")
+minetest.register_alias("herbs:mushroom_stone","herbs:mushroom_boletus")
+
 
 dofile(minetest.get_modpath(modname) .. "/register_mods.lua")
 
